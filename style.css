@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=PT+Serif:wght@700&display=swap');
+
+
+/* cascading style sheet  */
+body{
+    background-image: url(./images/ferenc-almasi-VPmMy8YA_cU-unsplash.jpg);
+    color: whitesmoke;
+}
+
+/* this is a comment  */
+
+p{
+    color: brown;
+}
+/* adding colours through colour values RGB */
+.special{
+    color: blue;
+    background-color: rgb(10, 255,10);
+    white-space: pre-wrap;
+    word-break: break-all;
+    font-family: 'Moon Dance', cursive;
+    font-family: 'PT Serif', serif;
+    translate: (50px, 80px);
+}
+
+ul li{
+    color: #ff255f;  /* Hex hexadecimal */
+}
+
+
+h1.border{
+    border-style: groove;
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(red, green, blue,black);
+    text-shadow: 10px 10px  black;
+}
